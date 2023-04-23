@@ -9,6 +9,7 @@ class trainer:
     # This class manages the entire process. It will first load data in the trainer.__init__() method, then accomplish training in the trainer.main() method.
     def main(self):
         want_viz_tsne = 0
+        print("cccccccccccccccc")
         if want_viz_tsne:
             viz_tsne(self.data)
         if self.args.do_deg_analyze:

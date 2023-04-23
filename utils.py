@@ -28,7 +28,6 @@ import pickle
 import numpy as np
 from ogb.nodeproppred import PygNodePropPredDataset, Evaluator
 from sklearn import metrics
-import cv2
 import dgl
 import pandas as pd
 import numpy as np

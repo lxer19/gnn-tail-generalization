@@ -27,8 +27,11 @@ def main():
         set_seed(args)
         torch.cuda.empty_cache()
         trnr = trainer(args, seed)
+        print("bbbbbbbbbbbbbbbbb")
+        print("cccccccccccccccc")
 
         results_arr2D = trnr.main()
+        print("aaaaaaaaaaaaaaaaa")
 
         full_recs_3D.append(results_arr2D) # dimensions: [seeds, record_type, epochs]
         del trnr
