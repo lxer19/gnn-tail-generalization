@@ -1,5 +1,0 @@
-# Release note for ogbl-citation2
-
-### v1
-
-Dec 25, 2020: Fixed negative samples of ogbl-citation
